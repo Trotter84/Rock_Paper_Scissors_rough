@@ -1,0 +1,145 @@
+/*
+  ===========================
+    Custom Stylesheets
+  ===========================
+*/
+
+body {
+  background-image: url(/Users/danieltrotter/DevPoint_Labs/Week_2/rock_paper_scissors_project/assets/images/background_wood.jpg);
+  background-size: cover;
+  background-position: center;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+  color: #e6e6e6;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgba(15, 15, 15, .5)
+}
+
+.question {
+  color: #cccccc;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/*
+  ===========================
+    Buttons
+  ===========================
+*/
+
+.button-container {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+/*
+  ===========================
+    Rock
+  ===========================
+*/
+
+.rock {
+  margin: 120px 70px 70px 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+  float: left;
+  background: none;
+}
+
+.rock:hover {
+  margin: 120px 75px 70px 75px;
+  padding: 0px;
+  width: 290px;
+}
+
+.rock:active {
+  margin: 120px 70px 70px 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+}
+
+.rock img {
+  border-radius: 20%;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, .0);
+}
+
+/*
+  ===========================
+    Paper
+  ===========================
+*/
+
+.paper {
+  margin: 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+  background: none;
+}
+
+.paper:hover {
+  margin: 75px;
+  padding: 0px;
+  width: 290px;
+}
+
+.paper:active {
+  margin: 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+}
+
+.paper img {
+  border-radius: 20%;
+  max-width: 100%;
+}
+
+/*
+  ===========================
+    Scissors
+  ===========================
+*/
+
+.scissors {
+  margin: 140px 70px 70px 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+  float: right;
+  background: none;
+}
+
+.scissors:hover {
+  margin: 140px 75px 70px 75px;
+  padding: 0px;
+  width: 290px;
+}
+
+.scissors:active {
+  margin: 140px 70px 70px 70px;
+  font-size: 16px;
+  width: 300px;
+  padding: 0px;
+  border-style: none;
+}
+
+.scissors img {
+  border-radius: 20%;
+  max-width: 100%;
+}
